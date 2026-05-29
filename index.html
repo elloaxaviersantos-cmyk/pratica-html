@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pr-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Pagina - Fontes, Mapa e Video</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?"
+       family="Roboto:wght@400;700"
+       &family=Playfair+Display:wght@700
+       &display="swap"
+       rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>Minha Página Completa</h1>
+        <p>Fontes, Mapa e Vídeo em HTML</p>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Sobre o Local</h2>
+            <p>
+                Este texto usa a fonte <strong>Roboto</strong>,
+                importada do Google Fonts. Fontes externas deixam o site coim uma aparência mais profissional.
+            </p>
+            <p>
+                Você pode combinar várias fontes: uma para títulos e outra para o corpo do texto.
+            </p>
+        </section>
+
+        <section>
+            <h2>Localização</h2>
+            <p>Encontre-nos no mapa abaixo:</p>
+            <div class="mapa-container">
+                <iframe
+                   src="https:/www.google.com/maps/embed?pd=!1m18!1m12!1m3!1d3657.197!2d-46.6562!3d-23.5613"
+                   allowfullscreen=""
+                   loading="lazy"
+                   referrerpolicy="no-referrer-when-downgrade"
+                   title="Mapa da localização">
+                </iframe>
+            </div>
+        </section>
+
+        <section>
+            <h2>Vídeo</h2>
+            <div class="video-container">
+                <video controls loop poster="imagens/capa.jpg">
+                    <source src="video/meu-video.mp4" type="video/mp4">
+                    <source src="video/meu-video.webm" type="video/webm">
+                    Seu navegador não suposrta a reprodução de vídeo.
+                </video>
+            </div>
+            <p class="video-info">
+                Formatos suportados: MP4 (recomendado), WebM, OGG
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Aula de Frontend &mdash; Fontes, Mapas e Vídeo</p>
+    </footer>
+    
+</body>
+</html>
